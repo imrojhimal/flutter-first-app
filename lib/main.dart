@@ -8,7 +8,8 @@ void main() {
         body: Container(
           decoration:const BoxDecoration(
             gradient: LinearGradient(
-             colors:[Color.fromARGB(255, 4, 33, 46),Color.fromARGB(255, 5, 38, 53)]
+             colors:[Color.fromARGB(255, 51, 2, 56),
+             Color.fromARGB(255, 82, 4, 134)]
             )
           ),
           child: const Center(
