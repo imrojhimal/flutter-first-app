@@ -1,6 +1,6 @@
+
+
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(
@@ -17,10 +17,14 @@ void main() {
             )
           ),
           child: const Center(
-            child: Text("hello world"),
+            child: Text("hello world",
+            style:TextStyle(
+            color:Colors.white, 
+            fontSize: 28.0, 
+            ),
           ),
         ),
       ),
     ),
-  );
+  ));
 }
