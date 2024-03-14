@@ -19,7 +19,7 @@ class GradientContainer extends StatelessWidget{
             )
           ),
           child: const Center(
-            child:StyleText("Sakib the goyal") ,
+            child:StyleText("cce female batch ") ,
         ),
       );
   }
