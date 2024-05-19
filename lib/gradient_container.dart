@@ -23,7 +23,7 @@ class GradientContainer extends StatelessWidget{
               Image.asset('assets/images/dice-1.png',
             width: 250,),
             TextButton(
-              onPressed: () {}, child:Text('Roll'))
+              onPressed: () {}, child:const Text('Roll'))
 
             ])
             ,
