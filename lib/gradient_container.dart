@@ -28,16 +28,16 @@ class GradientContainer extends StatelessWidget{
               children :[
               Image.asset('assets/images/dice-1.png',
             width: 250,),
+           const SizedBox(height: 20,),
             TextButton(
               onPressed:rollDice,
               style: TextButton.styleFrom(
-                padding:const EdgeInsets.only(top:20),
+                //padding:const EdgeInsets.only(top:20),
                 foregroundColor: Colors.white,
                 textStyle: const TextStyle(
                   fontSize: 28,
                 )),
               child:const Text('Roll'))
-
             ])
             ,
         ),
